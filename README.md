@@ -1,5 +1,8 @@
 # optional chain
 
+[![Build Status](https://travis-ci.org/cbbfcd/optional-chian.svg?branch=master)](https://travis-ci.org/cbbfcd/optional-chian)
+
+
 a simple optional chaining tools for javascript.
 
 ## use
