@@ -1,0 +1,31 @@
+{
+  "name": "optional-chain",
+  "version": "0.1.0",
+  "description": "a optional chaining tools for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "coverage": "nyc npm run test",
+    "coveralls": "npm run coverage -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "optional-chaining"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": "https://github.com/cbbfcd/optional-chian.git",
+  "author": {
+    "name": "cbbfcd",
+    "email": "bobiloveali@gmail.com",
+    "url": "https://github.com/cbbfcd"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "coveralls": "^3.0.5",
+    "nyc": "^14.1.1"
+  }
+}
