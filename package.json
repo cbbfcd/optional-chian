@@ -1,5 +1,5 @@
 {
-  "name": "optional-chain",
+  "name": "optional-chaining-tool",
   "version": "0.1.0",
   "description": "a optional chaining tools for javascript",
   "main": "index.js",
@@ -17,7 +17,7 @@
   ],
   "repository": "https://github.com/cbbfcd/optional-chian.git",
   "author": {
-    "name": "cbbfcd",
+    "name": "huangteng",
     "email": "bobiloveali@gmail.com",
     "url": "https://github.com/cbbfcd"
   },
