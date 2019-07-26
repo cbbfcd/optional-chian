@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "coverage": "nyc npm run test",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=html"
   },
   "keywords": [
     "optional-chaining"

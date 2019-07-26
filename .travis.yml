@@ -11,7 +11,7 @@ install:
 script:
 - npm run test
 after_success:
-- npm run coveralls
+- './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
 
 notifications:
   email: false
