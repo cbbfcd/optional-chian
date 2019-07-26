@@ -1,6 +1,6 @@
 # optional chain
 
-a simple optional chaining tools for javascript
+a simple optional chaining tools for javascript.
 
 ## use
 
@@ -14,6 +14,8 @@ oc(object, 'a?.f?.[0]?.v?.("hello!")?.z')
 ```
 
 you can get more use case in [test.js](./test.js)
+
+*not support Short-circuiting*
 
 ## option
 
