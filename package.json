@@ -1,12 +1,12 @@
 {
   "name": "optional-chaining-tool",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a optional chaining tools for javascript",
   "main": "index.js",
   "scripts": {
     "test": "ava",
     "coverage": "nyc npm run test",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "nyc report --reporter=lcov --reporter=text-lcov && coveralls"
   },
   "keywords": [
     "optional-chaining"
