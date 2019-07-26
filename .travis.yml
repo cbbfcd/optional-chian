@@ -9,7 +9,7 @@ branches:
 install:
 - npm install
 script:
-- npm coverage
+- npm run test
 after_success:
 - npm run coveralls
 
